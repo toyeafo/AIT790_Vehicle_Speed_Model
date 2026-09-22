@@ -11,7 +11,7 @@ To build and train a machine learning model to estimate the speed of a vehicle i
 *Goal: Acquire quality, dashcam video and speed data.*
 
 We will use open-source driving datasets to avoid the cost and time of manual data collection.
-1.  **Comma.ai Speed Prediction Challenge (Primary Start):** 26 minutes of driving at 20fps. We will use this to test possibilities because it also provides a synced `train.txt` file with exact speeds for every frame.
+1.  **Comma.ai Speed Prediction Challenge (Primary Start):** 26 minutes of driving at 20fps. We will use this to test possibilities because it also provides a synced `train.txt` file with exact speeds for every frame. [Dataset](https://github.com/commaai/speedchallenge/tree/master/data)
 2.  **Comma2k19:** 33+ hours of highway driving with raw CAN bus speed logs.
 
 ---
