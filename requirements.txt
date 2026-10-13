@@ -1,1 +1,7 @@
 opencv-python>=4.5.0
+torch>=2.0.0
+numpy
+matplotlib
+tqdm
+scikit-learn
+pillow

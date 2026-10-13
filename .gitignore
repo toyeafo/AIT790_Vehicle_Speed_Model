@@ -1,1 +1,9 @@
 .venv
+venv/
+__pycache__/
+data/flow/
+data/flow_test/
+data/frames/
+outputs/
+*.mp4
+.ipynb_checkpoints/
