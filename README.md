@@ -285,7 +285,7 @@ The lowest-hanging fruit is a **pretrained backbone**. Swapping our custom 5-lay
 
 - **Dataset:** [Comma.ai Speed Challenge](https://github.com/commaai/speedchallenge) — open-source driving data with aligned speed labels
 - **Framework:** PyTorch + OpenCV
-- **Course:** AIT790 — Applied Machine Learning
+- **Course:** AIT790 - Research Methodologies (Applied Machine Learning) 
 
 ---
 
