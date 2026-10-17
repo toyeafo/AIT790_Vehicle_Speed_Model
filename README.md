@@ -25,7 +25,7 @@
 
 ## Overview
 
-**The Problem:** You are in a car with a dashcam. The camera sees the road ahead — lane markings, trees, buildings, other cars. But there is no speedometer on screen. Can we teach a computer to look at the video and say, *"You are driving 28.3 mph right now"*?
+**The Problem:** You are in a car with a dashcam. The camera sees the road ahead, the lane markings, trees, buildings, and other cars. However, there is no speedometer on screen. Can we teach a computer to look at the video and say, *"You are driving 28.3 mph right now"*?
 
 **The Challenge:** A single photograph of the road doesn't tell you speed. A picture of a highway at 30 mph looks almost identical to one at 60 mph. The *difference between two consecutive pictures* is what contains the speed information.
 
