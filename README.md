@@ -6,7 +6,7 @@
 
 > **AIT790 Course Project** — Build and train a machine learning model to estimate vehicle speed in real-time using only dashcam video.
 
-**Team:** Samad Afolabi, Martina Kuzenski, Iyanuoluwa Joanna Ahmed
+**Team:** Samad Afolabi, Iyanuoluwa Joanna Ahmed, Martina Kuzenski
 
 ---
 
