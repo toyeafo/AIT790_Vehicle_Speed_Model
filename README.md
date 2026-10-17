@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-optional-green.svg)](https://developer.nvidia.com/cuda-downloads)
 
-> **AIT790 Course Project** — Build and train a machine learning model to estimate vehicle speed in real-time using only dashcam video.
+> **AIT790 Course Project 01** — Build and train a machine learning model to estimate vehicle speed in real-time using only dashcam video.
 
 **Team:** Samad Afolabi, Iyanuoluwa Joanna Ahmed, Martina Kuzenski
 
