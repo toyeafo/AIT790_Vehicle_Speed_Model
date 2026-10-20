@@ -6,4 +6,5 @@ data/flow_test/
 data/frames/
 outputs/
 *.mp4
+*.pdf
 .ipynb_checkpoints/

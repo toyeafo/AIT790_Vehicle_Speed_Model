@@ -46,11 +46,14 @@ The notebook contains:
 │   ├── train.mp4                   ← Download separately (~125 MB)
 │   ├── test.mp4                    ← Download separately (~64 MB)
 │   └── train.txt                   ← Speed labels (20,400 values)
-├── project_explanation.md          ← Full project explanation with analogies
-├── task4_training_explanation.md   ← Training deep dive
-├── task5_inference_postprocessing_explanation.md  ← Inference deep dive
-├── task6_evaluation_explanation.md ← Evaluation deep dive
-├── PROJECT_SUMMARY.md              ← One-page project summary
+├── docs/
+│   ├── project_explanation.md          ← Full project explanation with analogies
+│   ├── task4_training_explanation.md   ← Training deep dive
+│   ├── task5_inference_postprocessing_explanation.md  ← Inference deep dive
+│   ├── task6_evaluation_explanation.md ← Evaluation deep dive
+│   ├── PROJECT_SUMMARY.md              ← One-page project summary
+│   ├── presentation_feedback.md        ← Suggested changes for your slides
+│   └── presentation_prep.md            ← Simple explanations, analogies, Q&A prep
 ├── requirements.txt
 ├── .gitignore
 └── README.md                       ← This file
@@ -66,7 +69,7 @@ The notebook contains:
 2. **CNN Regression** — A lightweight 435K-parameter network maps motion images to speed values.
 3. **Post-Processing** — Stop threshold (≤2 mph → 0) + 5-frame rolling average smoother.
 
-For full details and analogies (the "Desk Fan," the "Pattern Detective," the "Flashcard Student," etc.), see [`project_explanation.md`](project_explanation.md).
+For full details and analogies (the "Desk Fan," the "Pattern Detective," the "Flashcard Student," etc.), see [`docs/project_explanation.md`](docs/project_explanation.md).
 
 ---
 
@@ -101,14 +104,14 @@ pip install -r requirements.txt
 
 ## Report Cards
 
-- **Task 4 (Training):** [`task4_training_explanation.md`](task4_training_explanation.md)
-- **Task 5 (Inference & Post-Processing):** [`task5_inference_postprocessing_explanation.md`](task5_inference_postprocessing_explanation.md)
-- **Task 6 (Evaluation & Wrap-Up):** [`task6_evaluation_explanation.md`](task6_evaluation_explanation.md)
+- **Task 4 (Training):** [`docs/task4_training_explanation.md`](docs/task4_training_explanation.md)
+- **Task 5 (Inference & Post-Processing):** [`docs/task5_inference_postprocessing_explanation.md`](docs/task5_inference_postprocessing_explanation.md)
+- **Task 6 (Evaluation & Wrap-Up):** [`docs/task6_evaluation_explanation.md`](docs/task6_evaluation_explanation.md)
 
 ## Presentation Prep
 
-- **Presentation Feedback:** [`presentation_feedback.md`](presentation_feedback.md) — Suggested changes for your slides
-- **Presentation Prep Guide:** [`presentation_prep.md`](presentation_prep.md) — Simple explanations, analogies, Q&A prep
+- **Presentation Feedback:** [`docs/presentation_feedback.md`](docs/presentation_feedback.md) — Suggested changes for your slides
+- **Presentation Prep Guide:** [`docs/presentation_prep.md`](docs/presentation_prep.md) — Simple explanations, analogies, Q&A prep
 
 ---
 
