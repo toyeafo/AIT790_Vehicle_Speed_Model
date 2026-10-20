@@ -105,6 +105,11 @@ pip install -r requirements.txt
 - **Task 5 (Inference & Post-Processing):** [`task5_inference_postprocessing_explanation.md`](task5_inference_postprocessing_explanation.md)
 - **Task 6 (Evaluation & Wrap-Up):** [`task6_evaluation_explanation.md`](task6_evaluation_explanation.md)
 
+## Presentation Prep
+
+- **Presentation Feedback:** [`presentation_feedback.md`](presentation_feedback.md) — Suggested changes for your slides
+- **Presentation Prep Guide:** [`presentation_prep.md`](presentation_prep.md) — Simple explanations, analogies, Q&A prep
+
 ---
 
 ## License
