@@ -19,24 +19,6 @@ Open the notebook in Jupyter or Google Colab and run the cells top-to-bottom. Th
 
 ---
 
-## Results Preview
-
-| Metric | Value |
-|---|---|
-| **MAE** | **1.56 mph** |
-| **RMSE** | 2.06 mph |
-| **Validation Samples** | 4,079 |
-| **Model Size** | ~435K parameters |
-
-The notebook contains:
-- ✅ Full training history (21 epochs, early stopping at epoch 16)
-- ✅ Training curves (Loss, MAE, RMSE)
-- ✅ Four-panel evaluation diagnostics (scatter, error histogram, error vs. speed, cumulative distribution)
-- ✅ Raw vs. post-processed comparison
-- ✅ Test video inference speed trace (10,797 predictions)
-
----
-
 ## Project Structure
 
 ```
@@ -60,16 +42,6 @@ The notebook contains:
 ```
 
 > **Note:** `data/train.mp4` and `data/test.mp4` are **not** included in the repository due to GitHub file size limits. Download instructions are in the notebook.
-
----
-
-## How It Works (In Brief)
-
-1. **Optical Flow** — Compute dense motion between consecutive frames. Bright colors = fast motion.
-2. **CNN Regression** — A lightweight 435K-parameter network maps motion images to speed values.
-3. **Post-Processing** — Stop threshold (≤2 mph → 0) + 5-frame rolling average smoother.
-
-For full details and analogies (the "Desk Fan," the "Pattern Detective," the "Flashcard Student," etc.), see [`docs/project_explanation.md`](docs/project_explanation.md).
 
 ---
 
@@ -99,19 +71,6 @@ pip install -r requirements.txt
 - **Training video:** ~17 minutes, 20,400 frames
 - **Test video:** ~9 minutes, 10,798 frames
 - **Labels:** Per-frame speed values in `data/train.txt`
-
----
-
-## Report Cards
-
-- **Task 4 (Training):** [`docs/task4_training_explanation.md`](docs/task4_training_explanation.md)
-- **Task 5 (Inference & Post-Processing):** [`docs/task5_inference_postprocessing_explanation.md`](docs/task5_inference_postprocessing_explanation.md)
-- **Task 6 (Evaluation & Wrap-Up):** [`docs/task6_evaluation_explanation.md`](docs/task6_evaluation_explanation.md)
-
-## Presentation Prep
-
-- **Presentation Feedback:** [`docs/presentation_feedback.md`](docs/presentation_feedback.md) — Suggested changes for your slides
-- **Presentation Prep Guide:** [`docs/presentation_prep.md`](docs/presentation_prep.md) — Simple explanations, analogies, Q&A prep
 
 ---
 
